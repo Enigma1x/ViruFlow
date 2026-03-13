@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "./styles/theme.css";
+
+/* Activar dark: cuando exista la clase .dark en un ancestro (p. ej. <html>) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+html.dark body {
+  background-color: var(--color-brand-dark);
+  color: hsl(210 40% 98%);
+}

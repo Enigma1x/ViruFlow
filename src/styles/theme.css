@@ -1,0 +1,20 @@
+/**
+ * Colores globales – Viruflow TaskManager
+ * Brand: #5dceef | Oscuro: hsl(194, 36%, 6%)
+ */
+@theme {
+  --color-brand: #5dceef;
+  --color-brand-hover: #4ac4e8;
+  --color-brand-muted: hsl(194 82% 65% / 0.15);
+  --color-brand-dark: hsl(194 36% 6%);
+  --color-background: hsl(210 40% 98%);
+  --color-background-elevated: hsl(42 53% 90%);
+  --color-foreground: hsl(222.2 84% 4.9%);
+  --color-foreground-muted: hsl(215.4 16.3% 46.9%);
+  --color-border: hsl(214 32% 91%);
+  --color-input: hsl(214 32% 91%);
+  --color-ring: var(--color-brand);
+  --color-destructive: hsl(0 84.2% 60.2%);
+  --color-success: hsl(142 71% 45%);
+  --color-warning: hsl(38 92% 50%);
+}
