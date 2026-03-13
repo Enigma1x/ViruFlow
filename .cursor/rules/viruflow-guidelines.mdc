@@ -1,0 +1,14 @@
+---
+description: Reglas y convenciones del proyecto Viruflow TaskManager
+globs: ["**/*.ts", "**/*.tsx"]
+---
+
+# Viruflow TaskManager – Reglas para el agente
+
+- Mantener siempre las rutas: `/`, `/chat`, `/notes`, `/tasks`, `/workspaces`, `/organigrama`, `/profile`.
+- No cambiar nombres de rutas existentes sin documentar.
+- Usar Zod para cualquier nueva validación de formularios.
+- Reutilizar stores: `authStore`, `themeStore`, `toastStore`.
+- No romper el modo oscuro ni el contador de mensajes no leídos en Sidebar.
+- Preferir tipado estricto; evitar `any`.
+- Estructura: `src/app/`, `src/features/`, `src/components/`, `src/store/`, `src/services/`, `src/types/`, `src/utils/`.
